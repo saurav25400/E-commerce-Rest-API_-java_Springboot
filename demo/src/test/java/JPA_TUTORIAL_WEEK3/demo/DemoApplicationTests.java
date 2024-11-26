@@ -12,34 +12,40 @@ import java.util.List;
 
 @SpringBootTest
 class DemoApplicationTests {
-	@Autowired
-	ProductRepository productRepository;
+//	@Autowired
+//	ProductRepository productRepository;
 
 	@Test
 	void contextLoads() {
 	}
+//
+//	@Test
+//	void addProduct(){
+//		ProductEntity productEntity=ProductEntity.builder().sku("nestle233").title("chocolates45").price(BigDecimal.valueOf(1256.78)).quantity(47).build();
+//		ProductEntity savedEntity=productRepository.save(productEntity);
+//		System.out.println(savedEntity);
+//
+//	}
+//
+//	@Test
+//	void getRepository(){
+//		List<ProductEntity> productEntity=productRepository.findByTitle("chocolate");
+//		System.out.println(productEntity);
+//
+//	}
 
-	@Test
-	void addProduct(){
-		ProductEntity productEntity=ProductEntity.builder().sku("nestle23").title("chocolate").price(BigDecimal.valueOf(125.78)).quantity(4).build();
-		ProductEntity savedEntity=productRepository.save(productEntity);
-		System.out.println(savedEntity);
+	///@Test
+	//void getDataByPriceAndQuantity(){
+//		ProductEntity allData=productRepository.findByPriceAndQuantity(BigDecimal.valueOf(23.45),4);
+//		System.out.println(allData);
+//		List<ProductEntity>ls=productRepository.findByTitleContainingIgnoreCase("cHoCO");
+//		System.out.println(ls);
 
-	}
+//		List<ProductEntity>entities=productRepository.findByTitleLike("%choco%");
+//		System.out.println(entities);
 
-	@Test
-	void getRepository(){
-		List<ProductEntity> productEntity=productRepository.findByTitle("chocolate");
-		System.out.println(productEntity);
 
-	}
-
-	@Test
-	void getDataByPriceAndQuantity(){
-		ProductEntity allData=productRepository.findByPriceAndQuantity(BigDecimal.valueOf(23.45),4);
-		System.out.println(allData);
-
-	}
+	///}
 
 
 

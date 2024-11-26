@@ -1,2 +1,26 @@
-INSERT INTO product_table  (sku, title_x, price, quantity)
-VALUES ('Cardinal1', 'Tom1 B1. Erichsen1', 4017.90, 91);
+INSERT INTO product_table (sku, title_x, price, quantity) VALUES
+('Nestle01', 'Maggi Noodles', 10.50, 10),
+('Parle02', 'Parle-G Biscuits', 20.75, 15),
+('Pepsi03', 'Pepsi Soft Drink', 30.20, 25),
+('CocaCola04', 'Coca Cola', 40.65, 30),
+('Brittania05', 'Good Day Cookies', 50.80, 20),
+('ITC06', 'Bingo Chips', 60.45, 35),
+('Amul07', 'Amul Butter', 70.10, 50),
+('Haldirams08', 'Haldirams Bhujia', 80.35, 60),
+('Nescafe09', 'Nescafe Coffee', 90.25, 40),
+('DairyMilk10', 'Cadbury Dairy Milk', 100.55, 70),
+('Kissan11', 'Kissan Jam', 110.60, 25),
+('MotherDairy12', 'Mother Dairy Milk', 120.75, 80),
+('Lays13', 'Lays Chips', 130.40, 50),
+('Dominos14', 'Dominos Pizza', 140.85, 20),
+('PizzaHut15', 'Pizza Hut Meal', 150.95, 15),
+('Sprite16', 'Sprite Soft Drink', 160.70, 40),
+('RedLabel17', 'Red Label Tea', 170.65, 30),
+('TajMahal18', 'Taj Mahal Tea', 180.30, 35),
+('Fanta19', 'Fanta Orange', 190.90, 60),
+('Real20', 'Real Fruit Juice', 200.55, 50),
+('Tropicana21', 'Tropicana Juice', 210.60, 45),
+('Oreo22', 'Oreo Biscuits', 220.75, 40),
+('Bournvita23', 'Bournvita Health Drink', 230.40, 55),
+('Complan24', 'Complan Powder', 240.85, 25),
+('Boost25', 'Boost Energy Drink', 250.95, 30);
